@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src='bundle.js'></script>
+    <!-- <link rel="stylesheet" type="text/css" href="../public/styles/main.css"> -->
+  </head>
+  <body>  
+
+   <form method="POST" action="/api/places" id="new-place-form">
+     <label for="name-field">Where do you want to go?</label>
+     <input type="text" id="name-field" name="name">
+     <label for="duration-field">How long would you like to stay for?</label>
+     <input type="text" id="duration-field" name="duration">
+     <input type="submit" value="Add Destination!">
+   </form>
+
+
+   <ul id="places-list"></ul>
+  </body>
+</html>
